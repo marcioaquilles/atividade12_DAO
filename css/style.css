@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background:lightgray;
+}
+
+th {
+    border: 2px solid black;
+    background: #537840;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1em;
+}
+
+img {
+    /*font-size: 1em;*/
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.img:hover {
+    /*border-bottom: 2px solid blue;*/
+    box-sizing: border-box;
+    box-shadow: -4px 1px 22px -1px rgba(0, 0, 0, 1);
+    background-color: rgba(236, 237, 223, 0.57);
+}
+
+#data-hora {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    margin: auto;
+    padding: 15px 10px 15px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.copy {
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    right: 10px;
+    margin: auto;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    /*box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
